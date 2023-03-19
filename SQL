@@ -1,0 +1,13 @@
+INSERT INTO sua_tabela (nome) VALUES ('João');
+INSERT INTO sua_tabela (nome) VALUES ('Maria');
+CREATE DATABASE seu_banco_de_dados;
+
+USE seu_banco_de_dados;
+
+CREATE TABLE sua_tabela (
+  id INT NOT NULL AUTO_INCREMENT,
+  nome VARCHAR(255) NOT NULL,
+  PRIMARY KEY (id)
+);
+INSERT INTO sua_tabela (nome) VALUES ('João');
+INSERT INTO sua_tabela (nome) VALUES ('Maria');
